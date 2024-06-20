@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+}
+header{
+    background-color: #1b1d74;
+    height:35vh;
+}
+header nav{
+    background-color:#1b1d74;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:30px;
+    text-align:center;
+    padding:5px 0px 0px 0px;
+    z-index:1;
+}
+header nav ul{
+}
+header nav ul li{
+    display: inline-block; 
+    margin:0px 10px;
+}
+header nav ul li a{
+    color: #efe6ebf5;
+    box-shadow:2px 2px 3px 0px;
+    padding:0px 2px 1px 2px;
+}
+.foto{
+    border:5px solid #ffffff;
+    border-radius: 70px;
+    height: 150px;
+    width: 150px;
+    background-image:url("../img/yo.jpg");
+    background-size:cover;
+    background-position-y:-50px;
+    margin:30px 0px 0px 30px;
+    position:relative;
+    top:15px;
+    
+}
+.persona{
+    position:absolute;
+    top:8vh;
+    left:200px;
+    margin:0px 0px 0px 0px;
+}
+header h1{
+    color:gray;
+    text-align: center;
+    width:100%;
+}
+header h2{
+    color:green;
+    width:100%;
+}
+main{
+    border:1px solid crimson;
+}
+main section{
+    border:1px solid rgb(204, 193, 45);
+}
+main section h2{
+    border:1px solid rgb(155, 25, 25);
+}
+main section p{
+    border:1px solid rgb(27, 127, 185);
+}
+main section ul{
+    border:1px solid rgb(27, 190, 114);
+}
+main section ul li a{
+    border:1px solid rgb(153, 7, 7);
+}
+.education{
+   background-color: chocolate; 
+}
+.colorGreen{
+    background-color: green;
+}
